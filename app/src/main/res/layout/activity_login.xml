@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF2EB"
+
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="true"
+
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="User Login"
+
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#F58232"
+            />
+
+
+        <EditText
+            android:id="@+id/editTextEmail"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:textColor="#F58232" />
+
+        <EditText
+            android:id="@+id/editTextpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:textColor="#F58232"/>
+
+        <Button
+            android:id="@+id/buttonSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="LOGIN"
+            android:textColor="#FCFCFB "
+            android:background="#F99541"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/textViewForgotPassword"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password? Click Here"
+            android:textAlignment="center"
+            android:textColor="#F58232"/>
+
+
+        <TextView
+            android:id="@+id/textViewSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not  Registered? SignUp Here"
+            android:textAlignment="center"
+            android:textColor="#F58232 "/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

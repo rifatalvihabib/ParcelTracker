@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0ECE7"
+    android:orientation="vertical"
+    tools:context=".ChangeDeliveryAddress">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F58232"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="New Delivery Address"
+        android:id="@+id/addressTV"
+        android:textSize="19sp"
+        />
+
+    <EditText
+        android:id="@+id/etAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+
+        android:hint="Enter New Delivery Address"
+        android:textColor="#F58232" />
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+
+        android:layout_marginTop="20dp"
+        android:background="#FA9733"
+        android:textColor="#FCFCFB"
+        android:text="Update"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+
+        android:layout_marginTop="20dp"
+        android:text="LOGOUT"
+        android:id="@+id/buttonLogout"
+        android:background="#FA9733"
+        android:textColor="#FCFCFB"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

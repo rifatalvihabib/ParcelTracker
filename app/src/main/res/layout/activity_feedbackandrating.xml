@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".FeedbackandratingActivity">
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center_horizontal"
+    android:text="We hope you will use our application to track your parcel"
+    android:textSize="20sp"
+    android:textStyle="italic" ></TextView>
+<RatingBar
+    android:id="@+id/ratingBar"
+    android:layout_marginTop="40dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:numStars="5"
+    android:stepSize="1"
+    android:rating="0"></RatingBar>
+<TextView
+    android:id="@+id/tvRatingScale"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:text="Awesome. I love it"
+    android:textSize="16sp"
+    android:textStyle="bold" ></TextView>
+<EditText
+    android:id="@+id/etFeedback"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textMultiLine"
+    android:padding="20dp"
+    android:lines="5"
+    android:hint="Tell us about your experience"
+    android:gravity="top"></EditText>
+<Button
+    android:id="@+id/btnSubmit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:layout_marginTop="10dp"
+    android:background="#F99541"
+    android:textColor="#FCFCFB"
+    android:text="Send feedback"></Button>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="10dp"
+        android:text="LOGOUT"
+        android:background="#F99541"
+        android:textColor="#FCFCFB"
+        android:id="@+id/buttonLogout"
+        android:layout_gravity="center_horizontal" ></Button>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

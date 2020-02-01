@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: info.hoang8f:fbutton:1.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dfbb6a33faa503bbc0b3a0584195f4b2/fbutton-1.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dfbb6a33faa503bbc0b3a0584195f4b2/fbutton-1.0.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.hoang8f/fbutton/1.0.5/1e56fe0d8bad86e552b9df1f19cb3efd6c155557/fbutton-1.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.hoang8f/fbutton/1.0.5/164d5d1e301245a37e6f889d708fcb9466e39620/fbutton-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

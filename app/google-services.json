@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "303214270604",
+    "firebase_url": "https://parcel-tracker-c610e.firebaseio.com",
+    "project_id": "parcel-tracker-c610e",
+    "storage_bucket": "parcel-tracker-c610e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303214270604:android:92bdf4dd0fba51ff64c3a9",
+        "android_client_info": {
+          "package_name": "com.example.parceltracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303214270604-8c4d2ihmckv33fjma9qh7a0tlrjgh4g3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parceltracker",
+            "certificate_hash": "18330097b27ce8b728736c836f89a0367359f461"
+          }
+        },
+        {
+          "client_id": "303214270604-dhka76n6vmantbmdkthkojcu0eg23gnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parceltracker",
+            "certificate_hash": "9150a28f45805e8657ac458aeb02e7d4fae03800"
+          }
+        },
+        {
+          "client_id": "303214270604-duejg6ubs2hu3cmq3981b7tc1u1osrl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCRFFcGKKUUSTPW7K8ljiJ1jcdgGlKMFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303214270604-duejg6ubs2hu3cmq3981b7tc1u1osrl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

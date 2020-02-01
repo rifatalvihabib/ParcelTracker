@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="#FAF2EB"
+
+    tools:context=".trackinInput">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/editTextInputTracking"
+        android:textColor="#F58232"
+        />
+
+    <Button
+        android:id="@+id/buttonTracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="TRACK"
+        android:layout_below="@+id/editTextInputTracking"
+        android:background="#F99541"
+        android:textColor="#FCFCFB"
+
+        />
+
+</RelativeLayout>
